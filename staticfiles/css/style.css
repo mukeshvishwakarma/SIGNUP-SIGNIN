@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Login PAGE*/
+
+
+
+#formlogi {
+    width: 300px;
+    margin: 17px auto auto auto;
+    background-color: white;
+    height: 320px;
+    border-radius: 2px;
+    box-shadow: 3px 3px 3px 3px rgba(116, 115, 115, 0.5);
+  }
+
+  
+  /* .input-group {
+    margin: 30px auto auto 40px;
+  
+  } */
+  
+  .inp {
+    width: 180px;
+    border-bottom: 1px solid #000;
+  }
+  
+  .inp input {
+    outline: none;
+    border: 1px solid white;
+    padding-bottom: 5px;
+  }
+  
+  .inp select {
+    outline: none;
+    border: 1px solid white;
+    padding-bottom: 5px;
+  }
+  
+  .submit1 input {
+    padding: 2px 90px;
+    color: white;
+    background-color: rgb(38, 38, 221);
+    border: rgb(38, 38, 221);
+    margin-bottom: 10px;
+    font-weight: 500;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px rgba(116, 115, 115, 0.5);
+  }
+  
+  .form-check {
+    margin: 10px auto auto 35px;
+  }
+  
+  .form-bottom {
+    font-size: 14px;
+  
+  }
+  
+  .form-bottom #Forgot {
+    margin: -22px auto auto 154px;
+  }
+  
+  .form-bottom #register {
+    margin: -5px auto auto 35px;
+  }
+  
+  /* REGISTER PAGE */
+  
+  
+  #formregi {
+      width: 320px;
+      margin: 30px auto auto auto;
+      background-color: white;
+      height: 549px;
+      border-radius: 2px;
+      box-shadow: 3px 3px 3px 3px rgba(116, 115, 115, 0.5);
+    }
+  
+    .logo1 img {
+      margin: -25px auto auto 50px;
+      width: 130px;
+      height: 60px;
+      border-radius: 50%;
+    }
+  
+    .input-group {
+      margin: 20px auto auto 2px;
+  
+    }
+  
+    /* .inpregi {
+      width: 180px;
+      border-bottom: 1px solid #000;
+    } */
+  
+    .inpregi input {
+      outline: none;
+      border: 1px solid white;
+      padding-bottom: 5px;
+      width: 180px;
+      border-bottom: 1px solid #000;
+      font-size: 17px;
+    }
+  
+    .inpregi select {
+      outline: none;
+      border: 1px solid white;
+      padding-bottom: 5px;
+      width: 180px;
+      border-bottom: 1px solid #000;
+    }
+    .submit2 input {
+      padding: 6px 90px;
+      color: white;
+      background-color: rgb(38, 38, 221);
+      border: rgb(38, 38, 221);
+    
+      margin: -40px auto auto -19px;
+      font-weight: 600;
+      font-size: 14px;
+      border-radius: 2px;
+      cursor: pointer;
+      box-shadow: 1px 1.5px 1.5px 1px rgba(116, 115, 115, 0.5);
+    }
+    .form-bottom1 {
+      font-size: 14px;
+  
+    }
+    .form-bottom1 #register {
+      margin: 2px auto auto -10px;
+    }

@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome Page</title>
+        <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    </head>
+    <body style="text-align: center; margin-top: auto; margin-bottom: auto;">
+        
+        <section class="welcome-message">
+            <h1>Welcome to Our Dashboard</h1>
+            <p>
+                Explore a world of possibilities as you manage your account, make payments, and access valuable resources.
+            </p>
+            <p>
+                If you have any questions or need assistance, feel free to <a href="mailto:support@example.com">contact our support team</a>.
+            </p>
+        </section>
+        
+        <footer>
+            <H4><a href="{% url 'signout' %}">SIGN OUT</a></h4>
+            <p>&copy; 2023 Your Website</p>
+        </footer>
+    </body>
+</html>

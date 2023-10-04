@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+
+        #form{
+         margin-top: 80px;
+          text-align: center;
+          border: 1px solid white;
+          border-radius: 10px;
+          max-width: 360px;
+          height: auto;
+          margin-left: auto;
+          margin-right: auto;
+          background-color: rgb(194, 253, 253);
+        }
+
+        .input-container{
+           margin-top: 15px;
+          padding: 1px;
+        }
+
+      input{
+        padding: 5px 19px  5px 22px;
+          border-radius: 10px;
+          border: 1px solid white;
+      }
+      input::placeholder{
+        color: rgb(0, 0, 0);
+      }
+    </style> 
+</head>
+<body>
+
+    <form action="/signin" method="post">
+       
+        {% csrf_token %}  
+
+            <div id="form">
+                <svg style="margin-top: 25px; color:rgb(10, 241, 241);" xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="currentColor" class="bi bi-unlock-fill" viewBox="0 0 16 16">
+                    <path d="M11 1a2 2 0 0 0-2 2v4a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h5V3a3 3 0 0 1 6 0v4a.5.5 0 0 1-1 0V3a2 2 0 0 0-2-2z"/>
+                  </svg>
+                <h3 style="margin: 20px 0px;">Forgot Password</h3>
+                <p style="margin-left: 10px; margin-right: 10px;" class="col-sm-12">Enter your <strong>Username</strong> and we'll send you a link to reset Password</p>
+            <div class="input-container">
+              <i class="fa fa-user icon"></i>
+              <input type="text" class="input-field" id="usrnm" name="usrnm" placeholder="Username" required>
+            </div>
+           
+           
+            <button style="background-color: rgb(51, 201, 201); color: white; margin: 18px;" type="submit" class="btn">Submit</button>
+            <p><button style="border: white; border-radius: 3px;"><a href="/signin">Back to login</a></button></p>
+           
+          </div>
+          </form>
+          
+</body>
+</html>
